@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+    <div class="vvedite">
+        <div class="summu">Vvedite summu:</div>
+        <div class="howmuch">
+            <input class="sel" type="" id="summa">
+            <select class="in" name="" id="myselect" onchange="func()" >
+                <option>--valyuta--</option>
+                <option>KZT</option>
+                <option>USD</option>
+                <option>EUR</option>
+
+            </select>
+        </div>
+    </div>
+
+    <table cellspacing="15">
+        <thead>
+            <th class="k">KZT(tenge)</th>
+            <th class="k">USD(dollar)</th>
+            <th class="k">EUR(euro)</th>
+        </thead>
+        <tr>
+            <td id="kzt" class="kz"><p>-</p></td>
+            <td id="usd" class="kz"><p>-</p></td>
+            <td id="eur" class="kz"><p>-</p></td>
+        </tr>
+    </table>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
