@@ -3,7 +3,6 @@ function func(){
     let x = document.getElementById('myselect');
     let i = x.selectedIndex;
     if(i == 0){
-        summa.value = 0;
         document.getElementById('kzt').innerHTML = "-";
         document.getElementById('usd').innerHTML = "-";
         document.getElementById('eur').innerHTML = "-";
